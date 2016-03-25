@@ -18,7 +18,7 @@ else:
 spol_z = genetika.find("TGAAGGACCTTC")
 if spol_z > -1:
     dokaz2 = True
-    print "Osumljenec je zanskega spola"
+    print "Osumljenec je zenskega spola"
 else:
     dokaz2 = False
 
@@ -36,7 +36,7 @@ else:
 rasa_c = genetika.find("CGACTACAG")
 if rasa_c > -1:
     dokaz4 = True
-    print "Osumljenec je ?rnec."
+    print "Osumljenec je crnec."
 else:
     dokaz4 = False
 
