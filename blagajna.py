@@ -29,7 +29,7 @@ while (znova == "da"):   #while zanka ponavlja vnos izberi dokler...
         print "Cena artikla %s znasa %s" % (izberi ,cena_artikla)
         stevec += cena_artikla  #tale števec mora biti točno tu vmes, drugače ne dela
         print "Tvoj racun znasa: " + str(stevec)
-        znova = raw_input("Ce Zelis nadaljeveti nakupovanje vtipkaj da, ce zelis zakljuciti nakup vtipkaj karkoli")  #možen izhod iz while zanke
+        znova = raw_input("Ce Zelis nadaljeveti nakupovanje vtipkaj da, ce zelis zakljuciti nakup vtipkaj karkoli")#...možen izhod iz while zanke
 
     else:
         print "Izbrani izdelek ni med artikli v ponudbi" #če si se zatipkal dobiš račun in ponovno možnost 'izberi' v while zanki
