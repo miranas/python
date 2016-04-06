@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-artikli = ["banana", "datlji", "pomarance", "slive"]
+artikli = ["banane", "datlji", "pomarance", "slive"]
 cena = [1.34, 2.45, 3.56, 4.67]
 
 print artikli
@@ -30,6 +30,7 @@ while (znova == "da"):
         print "Cena artikla %s znasa %s" % (izberi ,cena_artikla)
         stevec += cena_artikla
         print "Tvoj racun znasa: " + str(stevec)
+        znova = raw_input("Ce Zelis nadaljeveti nakupovanje vtipkaj da, ce zelis zakljuciti nakup vtipkaj karkoli")
 
     else:
         print "Izbrani izdelek ni med artikli v ponudbi"
