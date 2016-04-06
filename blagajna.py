@@ -30,13 +30,17 @@ while (znova == "da"):
         stevec += cena_artikla
         print "Tvoj racun znasa: " + str(stevec)
 
+
+
+
+
     else:
         print "Izbrani izdelek ni med artikli v ponudbi"
         print "Tvoj racun znasa: " + str(stevec)
 
 
-else:
-    print "Tvoj racun znasa: " + str(stevec)
+
+print "Hvala za nakup. Tvoje plačilo znaša:  " + str(stevec)
 
 
 
