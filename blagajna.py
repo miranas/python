@@ -10,7 +10,7 @@ stevec = 0
 
 
 if izberi in artikli: #if zanka
-    artikli_indexs = artikli.index(izberi) #smo se učili pri pouku, dobimo indeks od artikla v seznamu artikli.
+    artikli_indexs = artikli.index(izberi) #smo se učili pri pouku, dobimo indeks od artikla v seznamu artikli s pomočjo vnosne spremenljivke 'izberi'
     cena_artikla = cena[artikli_indexs] # in ga združimo s pripadajočo ceno iz seznama cena
     print "Cena artikla %s je: %s" %( izberi,cena_artikla)
     stevec += cena_artikla   #ceno artikla doda spremenljivki števec
