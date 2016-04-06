@@ -19,7 +19,7 @@ else:
     print "Tega izdelka ni med artikli v ponudbi"
 
 
-znova = raw_input("Ce Zelis nadaljeveti nakupovanje vtipkaj da, ce zelis zakljuciti nakup vtipkaj karkoli")
+znova = raw_input("Ce Zelis nadaljeveti nakupovanje vtipkaj da, ce zelis zakljuciti nakup vtipkaj karkoli")#tukaj se odločimo ali gremo v while zanko
 
 while (znova == "da"):   #while zanka ponavlja vnos izberi dokler...
     izberi = raw_input("Izberi artikel:")
