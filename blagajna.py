@@ -37,7 +37,7 @@ while (znova == "da"):   #while zanka ponavlja vnos izberi dokler...
 
 
 
-print "Hvala za nakup. Tvoje plačilo znaša:  " + str(stevec)
+print "Hvala za nakup. Tvoje plačilo znaša:  " + str(stevec)  #tole se izvede, če izvršimo samo en nakup in ne gremo v while zanko
 
 
 
