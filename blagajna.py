@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-
 artikli = ["banane", "datlji", "pomarance", "slive"]
 cena = [1.34, 2.45, 3.56, 4.67]
 
