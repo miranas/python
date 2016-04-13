@@ -1,7 +1,8 @@
 states = {
     "Slovenija":"Ljubljana",
     "Avstrija":"Dunaj",
-    "Italija":"Rim"
+    "Italija":"Rim",
+    "Francija":"Pariz"
 }
 
 def print_states():
