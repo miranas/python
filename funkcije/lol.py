@@ -4,11 +4,11 @@ states = {
     "Italija":"Rim",
     "Francija":"Pariz"
 }
+
 def povej_mesto(mesto):
     return states[mesto]
 
 def main():
-
     stevec = 0
 
     for x in states.keys():
