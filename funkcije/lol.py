@@ -21,7 +21,7 @@ def main():
             print "Pravilen odgovor je " + povej_mesto(x)
 
 
-    print "Stevilo dosezenih tock je: {}".format(stevec)
+    print "Stevilo pravilnih odgovorov je: {}".format(stevec)
 
 
 
