@@ -11,7 +11,7 @@ def odstrani_dvojnike(a):
 
 def printaj():
     while(len(b)) < 8:  #dokler se lista b(preko liste a) ne napolni z osmimi neenakimi stevili...
-        a.append(randint(1,39)) #..generiraj nakljucna stevila od 0 do 9 in jih filaj v listo a
+        a.append(randint(1,39)) #..generiraj nakljucna stevila od 1 do 39 in jih pripni v listo a
         if len(odstrani_dvojnike(a))== 8: #printaj mi samo tisto verzijo liste b, ki je napolnjena z osmimi stevili
             print odstrani_dvojnike(a) #funkcija, ki vrne listo b,definirana zgoraj
 
