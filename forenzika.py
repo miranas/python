@@ -6,6 +6,7 @@ container = 0
 genetika = open("dna.txt", "r").read()
 
 
+
 spol_m = genetika.find("TGCAGGAACTTC")
 if spol_m  > -1:
     dokaz1 = True
